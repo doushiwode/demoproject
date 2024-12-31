@@ -1,13 +1,12 @@
 #ifndef HEADER_H
 #define HEADER_H
 
-// Include necessary standard libraries
-#include <iostream>
-#include <string>
+// Standard library includes
+#include <stdio.h>
+#include <stdlib.h>
 
 // Function declarations
-void exampleFunction();
-int add(int a, int b);
-std::string getGreeting(const std::string& name);
+void exampleFunction1();
+int exampleFunction2(int param);
 
 #endif // HEADER_H
